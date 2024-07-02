@@ -1,13 +1,3 @@
----
-title: feedback - Thorium WoW
-description: 
-published: true
-date: 2023-11-15T16:33:22.640Z
-tags: 
-editor: markdown
-dateCreated: 2021-09-13T23:11:29.200Z
----
-
 # Thorium WoW Feedback
 These are going to be based on the little time that I have played on Thorium WoW.
 
@@ -185,4 +175,58 @@ Much of the game design focuses on high stats and massive damage, but this appro
 
 #### World Channel (/o)
 - Instead of using Player in VERY blue or red color, use Faction Icons to showcase the faction of the player
-- VIP should also show a rank Icon, instead of full `V.I.P 1`
+- VIP should also show a rank Icon, instead of full <span style="color: orange;">V.I.P 1</span>
+
+
+## Progression/Leveling/Armor [My Idea]
+Create a base Wotlk 3.3.5a server (For Stats) and add custom based stuff on there using End Game (Lvl 90) gear as base stats;
+
+- Base game Stats are a lot easier to balance Content around. Especially if you are going to add higher Levels after Level 80.
+- With the following changes the server adds a progression system like never seen before, and will highly likely interest a lot of People, including myself. And I would play religiously!
+- This does require some extra engine modifications if I am not mistaken. You can use Mythic Tag and change that to whatever you like, with that tag, you can essentially add a REAL custom way of doing upgrades.
+
+### Graded Items (Upgrade System)
+The system will work as follows:
+- Base Gear from <span style="color: orange;">Lvl 80 - 90</span> will be dropped by mobs/world bosses and Quest Rewards, Quests can be as easy as giving specific Gear based on the current Lvl, and choosing like in Retail; Strength, Intellect, Spirit, etc;
+- Once player has reached Lvl 90 they will be eligible for their First Dungeon that can be changed in difficulty using the <span style="color: magenta;">Mythic</span> system I suggested above. The different Stages of the dungeons will allow players to Solo, Coop, Trio or Full team the Dungeon. This helps with people wanting to solo, people who want to start out a character with a friend, or a small group of friends. (I really would like to see something like this, so I can potentially meet up with people from the discord and play Thorium Together)
+
+#### Items and Upgradable Gear
+The following two items are based on Lvl 80. Giving them Rare rarity will ensure that the player, once gaining an Epic or Legendary item, will understand the rarity of these starting items. Instead of using Epic, which is usually End Game in World of Warcraft, you'll give them Rare as to indicate the items will become better once they are higher in lvl or have Dropped items.
+
+- These items are based off Lich King Heroic Items
+
+  <img src="https://i.imgur.com/VVO8QC2.png" style="max-width: 60%;">
+  <img src="https://i.imgur.com/d4xsMaJ.png" style="max-width: 60%;">
+
+#### Suggestions
+- The new system is called <span style="color: orange;">Graded Gear</span>, and can use the <span style="color: orange;">Heroic Tag</span> from WoW Retail. 
+- Each Grade adds a % of stats on top of the base Grade item. A base armor piece will always be <span style="color: gray;">'Ungraded'</span>, and can be graded by the an NPC in the Mall.
+- The first Grade (From Ungraded to Graded) will cost cold based on the Lvl of the item. Lvl 90 will have the highest cost to grade an item. (eg. 1500 Gold). As the player has multiple items, they need to also obtain gold, and you could add some kind of way for people to earn Gold by doing Dailies, Questing, 
+- In order to use the Grading Feature you have to do a questline that helps players understand the Grading system. This Questline will be the Start of the Questing Zone, and will reward the player with Graded Items (<span style="color: lightgreen;">Grade I</span>). This will give the player a sense of progression and helps them understand the Grading system.
+- The hammer can be used to Upgrade the Gear on the go, but I feel like having it in the mall, and obtaining an On-the-Go version could be something you work towards. (Even can go as far as having it some sort of Currency that can be sold for Gold on the Auction House.)
+- Using this system there could be rarities within the Loot Tables/Mob/Boss Drops, where an item can have a chance to be a Graded item, instead of a regular non-graded item. (You should keep it low Grade (Grade 1, considering giving higher will keep people from needing to upgrade)).
+- But Loot tables from Bosses will never give Higher Grade Items, they should be graded based on the Lvl by the NPC this way, and will cost gold.
+- Allow the Auctionhouse to have Graded and Ungraded items. This way an economy can bloom and people will be able to sell their Graded Items.
+- You can even go as far as having Lootboxes that I talked about also be able to be Graded. The higher the Grade, the higher the chance there is for Higher Rarity Items.
+
+#### End Game Gear
+  - These items are Based off Lvl 80 stats and increase by using the following formula: 
+
+    Base Stats = Base Stats + ( ( Required Lvl - Base Level (80) * (Base Stat * 0.3) )  );
+  
+  <img src="https://i.imgur.com/1E5UdQ5.png" style="max-width: 60%;">
+  <img src="https://i.imgur.com/LLKUjRy.png" style="max-width: 60%;">
+
+  - I tried showing Grade I and Grade IV to showcase the difference in Stats that the weapons get. This way you can have dungeons setup based off Grade I - Grade IV (Or Grade V, Grade X), and easily balance it using these stats.
+
+#### Obtaining Hammer and Grading NPC
+A well thoughout mechanic would be to have the On-the-Go hammer be something you work towards, instead of having it from the start. Imagine a thriving economy, people running around, questing, dailies and having to Upgrade their gear, having to go to the mall, and working towards getting the upgrade on the go.
+
+- The mall will have a Grading Station/NPC that can Grade items and upgrade them for Currency. (Creating a Hub for players both new and Veterans)
+- Upgrade Hammer will have a long Questline in order to obtain the On-the-go Version. This will ensure that people work towards it, instead of handing it out. And people love Questing for these types of things.
+- Upgrade Hammer will be available to VIPs from the start, so there is incentive to donate (Which if this gets implemented, I will donate myself towards).
+
+#### Why?
+- Well as I can tell from the current state of the server, it's heavily unbalanced. I don't need to do much and I don't really die (Currently in Dungeons). I can pull pretty much the whole instance and it'll be fine.
+- Spells from current instances/mobs/bosses don't do anything.
+- Mobs/Bosses don't have anything special, because the specialty doesn't do enough damage, which isn't as fun as having to figure out the strategy of certain instances and bosses. All they can do is do damage using a weapon/fists. Spells don't do these type of damages.
